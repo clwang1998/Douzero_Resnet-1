@@ -1,8 +1,6 @@
 # Douzero_Resnet
 Douzero with ResNet and GPU support for Windows
 
-Contributor:
+ResNet32: 4*8 DNN in Q-net
 
-[EdwardPooh](https://github.com/EdwardPooh): Implements the resnet Model.
-
-[Vincentzyx](https://github.com/EdwardPooh): Modify the training framework.
+ResNet128: 4*8*4 in Q-net
