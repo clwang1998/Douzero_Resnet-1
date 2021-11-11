@@ -1,5 +1,5 @@
 # Douzero_Resnet
-Douzero with ResNet and GPU support for Windows
+Douzero with ResNet and GPU support
 
 ResNet32: 4*8 DNN in Q-net
 
