@@ -1,6 +1,3 @@
-# Douzero_Resnet
+# 基于深度蒙特卡洛的斗地主算法
+
 Douzero with ResNet and GPU support
-
-ResNet32: 4*8 DNN in Q-net
-
-ResNet128:  4 * 8 *4 in Q-net
