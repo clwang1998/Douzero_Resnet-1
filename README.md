@@ -2,7 +2,7 @@
 
 Computer game is the core problem of artificial intelligence research at this stage.Computer
 game can promote AI from cognitive intelligence to decision intelligence. In the perfect
-information game, Deep Reinforcement Learning techniques such as AlphaGo and AlphaGo Zero have made major breakthroughs in Go, defeating top human players. In the
+information game, Deep Reinforcement Learning techniques such as AlphaGo and AlphaGo Zero have made major breakthroughs in Go, defeating top human players. In the
 imperfect information game, Carnegie Mellon University and the University of Alberta
 also made strides in solving Texas Hold’em. The Imperfect Information Game is an
 abstraction and simulation of many real-world problems that have the characteristics of
@@ -20,12 +20,11 @@ large number of games records as samples. However, the random initialization of 
 agent causes the model to generate mainly sparse rewards in the initial phase, resulting
 in the vast majority of samples in the experience pool not receiving useful value signals.
 The random selection of samples in the experience pool leads to low sample utilization.
-Third, due to the unequal status of landowners and farmers in the game, there are differences in the intelligence level of the different agents, and the winning Percentage and
-of Peasants are significantly higher than those of landlord, indicating that the intelligence level of landlord is weaker. In order to solve the above problems, three aspects
+Third, due to the unequal status of landowners and farmers in the game, there are differences in the intelligence level of the different agents, and the winning Percentage and of Peasants are significantly higher than those of landlord, indicating that the intelligence level of landlord is weaker. In order to solve the above problems, three aspects
 are studied in this paper: the design of the network structure, the sampling methods and
 the intelligence training methods.
 
-1. For unstable performance of DouZero, we use a residual network for reinforcement learning’s 𝑄-network. In order to improve the generalization ability of the network, the residual network model is introduced to design 𝑄-network for reinforcement
+1. For unstable performance of DouZero, we use a residual network for reinforcement learning’s 𝑄-network. In order to improve the generalization ability of the network, the residual network model is introduced to design 𝑄-network for reinforcement
 learning. Using the residual network and the long- and short term memory network as
 state network, we extracted the bucket features such as deeper situation information and
 history records in Doudizhu. At the same time, we combined the deep Monte Carlo
@@ -41,9 +40,9 @@ experience pool. Since prioritized experience replay is also randomized, all sam
 have a chance of being captured, and sample diversity is also increased. By combining
 the deep Monte Carlo method with prioritized experience replay, we can significantly
 reduce the convergence time of the model and improve the use of samples in the model.
-3. For landlords’low intelligence problem, multi-body learning algorithm is introduced as a training method for the agents. In this work, based on the multi-agent reinforcement learning algorithm, different agents are trained differently to cope with different roles in the game, and the multi-body cooperation is achieved by interactive learning
+3. For landlords’low intelligence problem, multi-body learning algorithm is introduced as a training method for the agents. In this work, based on the multi-agent reinforcement learning algorithm, different agents are trained differently to cope with different roles in the game, and the multi-body cooperation is achieved by interactive learning
 of the decision task. By dividing the players into two groups: Peasants and landlords,
 forming two-team zero-sum game and solving the Nash equilibrium, the landlord is then
-trained individually with the Minmax Q-learning. We combine a Deep Monte Carlo approach with multi-agent reinforcement learning to significantly improve the landlords’
+trained individually with the Minmax Q-learning. We combine a Deep Monte Carlo approach with multi-agent reinforcement learning to significantly improve the landlords’
 winning percentage and increase their intelligence.
-Keywords: Imperfect Information Game, Doudizhu, Deep Monte Carlo, Residual Network, Prioritized Experience Replay, Multi - agent reinforcement learning
+Keywords: Imperfect Information Game, Doudizhu, Deep Monte Carlo, Residual Network, Prioritized Experience Replay, Multi - agent reinforcement learning
