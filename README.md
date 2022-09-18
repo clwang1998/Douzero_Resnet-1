@@ -40,7 +40,7 @@ experience pool. Since prioritized experience replay is also randomized, all sam
 have a chance of being captured, and sample diversity is also increased. By combining
 the deep Monte Carlo method with prioritized experience replay, we can significantly
 reduce the convergence time of the model and improve the use of samples in the model.
-3. For landlords’low intelligence problem, multi-body learning algorithm is introduced as a training method for the agents. In this work, based on the multi-agent reinforcement learning algorithm, different agents are trained differently to cope with different roles in the game, and the multi-body cooperation is achieved by interactive learning
+3. For landlords’low intelligence problem, multi-body learning algorithm is introduced as a training method for the agents. In this work, based on the multi-agent reinforcement learning algorithm, different agents are trained differently to cope with different roles in the game, and the multi-body cooperation is achieved by interactive learning
 of the decision task. By dividing the players into two groups: Peasants and landlords,
 forming two-team zero-sum game and solving the Nash equilibrium, the landlord is then
 trained individually with the Minmax Q-learning. We combine a Deep Monte Carlo approach with multi-agent reinforcement learning to significantly improve the landlords’
